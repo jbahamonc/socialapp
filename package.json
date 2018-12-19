@@ -1,0 +1,21 @@
+{
+  "name": "socialapp",
+  "version": "1.0.0",
+  "description": "App Restfull con Nodejs y MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Jefferson Bahamon",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "moment": "^2.23.0",
+    "mongoose": "^5.4.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
